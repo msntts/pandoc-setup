@@ -85,6 +85,9 @@ lstPrefix: "コード."
 ## Wordにする
 reference.docxを編集中のmarkdownファイルと同じフォルダにコピー(それか、pandoc_argsに書いてるパスを絶対パスにする)して、「Markdown Preview Enhancedの表示画面をクリック->コンテキストメニューのPandocを選択」するとWordファイルが生成。表示がちょっとアレなところもあると思うので、微調整して完成。
 
+## サンプル
+[ここ](https://github.com/msntts/memorandum/tree/master/pandoc-setup/sample)にmarkdown(Pandoc拡張)とwordスタイルテンプレートのサンプルを置きました。  
+
 # よくわからなかったこと
 - Wordのスタイルテンプレートって、リスト表示(見出しのレベルに応じて1.とか1.1を付ける)の設定は保存されない?
 - 図表の参照の仕方はわかったけど、章節の参照の方法がよくわからなかった
