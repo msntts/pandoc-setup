@@ -8,7 +8,7 @@
 | [Pandoc-crossref](https://github.com/lierdakil/pandoc-crossref/releases) | Pandocのfilter |
 | [VSCode](https://code.visualstudio.com/)  | |
 | [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/) | VSCodeのExtension。インストールはVSCodeからしたほうが楽 |
-| [*PlantUML](https://plantuml.com/ja/download) | MarkdownでUMLを書くために必要 |
+| ~~[*PlantUML](https://plantuml.com/ja/download)~~ | ~~MarkdownでUMLを書くために必要~~ markdown preview enhancedに内包 |
 | [*GraphBiz](https://www.graphviz.org/download/) | PlantUMLを動かすのに必要 |
 | *Java | PlantUMLを動かすのに必要 |
 | [*Image Magick](https://imagemagick.org/script/download.php) | PlantUMLで書いたUMLをWordに出力するため(画像化する)に必要 |
@@ -28,7 +28,7 @@ pandoc --version
   - v0.4.0.0-alpha6dもPandoc v2.9.2.1とビルドしてると書いていたけど、うまく動かなかった(◞‸◟)。。(2020/05/01時点)
 
 ## 事前準備
-Pandoc、VSCode、(PlantUML、GraphBiz、Java、Image Magick)をDL&インストールする。  
+Pandoc、VSCode、(~~PlantUML~~、GraphBiz、Java、Image Magick)をDL&インストールする。  
 Pandoc-crossrefはDL後、zip展開しておく。
 
 ### Pandoc
