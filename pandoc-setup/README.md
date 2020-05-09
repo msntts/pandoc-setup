@@ -33,7 +33,7 @@ Pandoc-crossrefはDL後、zip展開しておく。
 
 ### Pandoc
 - Pandocインストール後(デフォルトだと%USERPROFILE%\\AppData\\Local\\Pandoc)にDLしたPandoc-crossref(ファイル名はpandoc-crossref.exe)をコピー
-- Pandoc、GraphBiz、ImageMagickのPATHを通す
+- Java(JAVA_HOMEとbin)、GraphBiz、ImageMagickのPATHを通す
 - 出力するWordスタイルのテンプレートを出力し、編集
   - Powershellでやったらdocxが壊れていたので、コマンドプロンプトから実行したほうがいい
 ```sh
@@ -90,5 +90,5 @@ reference.docxを編集中のmarkdownファイルと同じフォルダにコピ�
 
 # よくわからなかったこと
 - Wordのスタイルテンプレートって、リスト表示(見出しのレベルに応じて1.とか1.1を付ける)の設定は保存されない?
-- 図表の参照の仕方はわかったけど、章節の参照の方法がよくわからなかった
-- 相互参照の設定はされないっぽい
+- ~~図表の参照の仕方はわかったけど、章節の参照の方法がよくわからなかった~~
+- 相互参照の設定はされないっぽい(表1参照とかの番号は適宜振ってくれるけど、参照はない)
