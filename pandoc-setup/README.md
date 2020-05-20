@@ -89,6 +89,6 @@ reference.docxを編集中のmarkdownファイルと同じフォルダにコピ�
 [ここ](https://github.com/msntts/memorandum/tree/master/pandoc-setup/sample)にmarkdown(Pandoc拡張)とwordスタイルテンプレートのサンプルを置きました。  
 
 # よくわからなかったこと
-- Wordのスタイルテンプレートって、リスト表示(見出しのレベルに応じて1.とか1.1を付ける)の設定は保存されない?
+- ~~Wordのスタイルテンプレートって、リスト表示(見出しのレベルに応じて1.とか1.1を付ける)の設定は保存されない?~~ [c3bbf36](https://github.com/msntts/memorandum/commit/c3bbf3625033a2c2d35e27805c3b7b566ab0398a)にて解決
 - ~~図表の参照の仕方はわかったけど、章節の参照の方法がよくわからなかった~~
 - 相互参照の設定はされないっぽい(表1参照とかの番号は適宜振ってくれるけど、参照はない)
